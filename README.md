@@ -87,6 +87,6 @@ Bilgisayarıma inen imajı çalıştırmak için ise Docker CLI'de aşağıdaki 
 ```bash
 docker run -p 8080:80 rtaplamaci/ramazan_taplamaci:0.1
 ```
-
+Ardından browserımda http://localhost:8080/ adresinden hali hazırda hazırlamış olduğum html çıktıyı görüntüledim.
 
 
