@@ -1,5 +1,5 @@
 ## Cloud Native Engineer Intern Case Study
-* Herhangi bir dilde yazılmış örnek bir web uygulamasının Dockerfile kullanılarak docker imajı
+* GÖREV 1: Herhangi bir dilde yazılmış örnek bir web uygulamasının Dockerfile kullanılarak docker imajı
 haline getirilmesi.
 
 Bu görev için öncelikli olarak Dosya sisteminde bir klasör oluşturdum. Ardından terminal ekranından Nano editörü ile Dockerfile dosyasını oluşturdum ve içeriğini aşağıdaki gibi düzenledim.
@@ -56,7 +56,16 @@ Ardından Docker image dosyasını oluşturmak için Docker CLI ile aşağıdaki
 
 ```bash
 docker build -t rtaplamaci/ramazan_taplamaci:0.1 .
+```
+ve Docker imajım oluştu.
 
+* GÖREV 2: Docker hub üzerinden bir hesap açılarak dockerize edilen imajın açılan hesaba
+isim_soyisim:0.1 şeklinde psuh edilmesi.
+
+Bu görevi tamalamak için öncelikli olarak Docker Hub hesabı edindm ve terminal üzerinden giriş işlmelerimi tamamladım ardından ilgili imajı Docker Hub'a pus edebilmek için aşağıdaki komutu kullandım.
+
+```bash
+docker push rtaplamaci/ramazan_taplamaci:0.1
 ```
 
 
