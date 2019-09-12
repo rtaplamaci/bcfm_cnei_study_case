@@ -62,11 +62,12 @@ ve Docker imajım oluştu.
 * GÖREV 2: Docker hub üzerinden bir hesap açılarak dockerize edilen imajın açılan hesaba
 isim_soyisim:0.1 şeklinde psuh edilmesi.
 
-Bu görevi tamalamak için öncelikli olarak Docker Hub hesabı edindm ve terminal üzerinden giriş işlmelerimi tamamladım ardından ilgili imajı Docker Hub'a pus edebilmek için aşağıdaki komutu kullandım.
+Bu görevi tamalamak için öncelikli olarak Docker Hub hesabı edindm ve terminal üzerinden giriş işlmelerimi tamamladım ardından ilgili imajı Docker Hub'a push edebilmek için aşağıdaki komutu kullandım.
 
 ```bash
 docker push rtaplamaci/ramazan_taplamaci:0.1
 ```
+push işlemim tamamlandı. Buna istinaden [buraya tıklayarak](https://cloud.docker.com/repository/docker/rtaplamaci/ramazan_taplamaci) Docker Hub'da bulunan imaja ulaşabilirsiniz. 
 
 
 
