@@ -1,4 +1,6 @@
 ## Cloud Native Engineer Intern Case Study
+Tüm bu işlemler Ubuntu 18.04.3 LTS işletim sisteminde gerçekleştirilmiştir.
+
 * GÖREV 1: Herhangi bir dilde yazılmış örnek bir web uygulamasının Dockerfile kullanılarak docker imajı
 haline getirilmesi.
 
