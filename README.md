@@ -25,7 +25,7 @@ FROM ubuntu:latest
 
  ENTRYPOINT nginx -g 'daemon off;'
 ```
-Ardından ilgili index.html dosyasını oluşturdum ve içeriğin aşağıdaki gibi düzenledim.
+Ardından ilgili index.html dosyasını oluşturdum ve içeriğini aşağıdaki gibi düzenledim.
 
 ```bash
 
@@ -52,7 +52,7 @@ ve Docker imajım oluştu.
 * GÖREV 2: Docker hub üzerinden bir hesap açılarak dockerize edilen imajın açılan hesaba
 isim_soyisim:0.1 şeklinde psuh edilmesi.
 
-Bu görevi tamalamak için öncelikli olarak Docker Hub hesabı edindm ve terminal üzerinden giriş işlmelerimi tamamladım ardından ilgili imajı Docker Hub'a push edebilmek için aşağıdaki komutu kullandım.
+Bu görevi tamalamak için öncelikli olarak Docker Hub hesabı edindim ve terminal üzerinden giriş işlmelerimi tamamladım ardından ilgili imajı Docker Hub'a push edebilmek için aşağıdaki komutu kullandım.
 
 ```bash
 docker push rtaplamaci/ramazan_taplamaci:0.1
@@ -64,7 +64,7 @@ push işlemim tamamlandı. Buna istinaden [buraya tıklayarak](https://cloud.doc
 çalıştığının gösterilmesi. Local ortamlarınız kullanılabilinir veya herhangi bir cloud provide
 kullanabilirsiniz.
 
-Bu görev için ise öncelikli olarak hali hazırda bilgisayarımda bulunan imajı aşağıdaki komutu kullanarak sildi.
+Bu görev için ise öncelikli olarak hali hazırda bilgisayarımda bulunan imajı aşağıdaki komutu kullanarak sildim.
 
 ```bash
 docker rmi rtaplamaci/ramazan_taplamaci:0.1
