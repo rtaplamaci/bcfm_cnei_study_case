@@ -41,19 +41,7 @@ Ardından ilgili index.html dosyasını oluşturdum ve içeriğin aşağıdaki g
      </div>
  </body>
  </html>
- <html>
- <head>
-     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-     <title>Ramazan Taplamacı</title>
- </head>
- <body>
-     <div style="text-align: center;"> 
-         <h1>Ramazan Taplamacı</h1>
-         <h2><a href="http://rtaplamaci.com/">www.rtaplamaci.com</a></h2>
-     </div>
- </body>
- </html>
-```
+ ```
 Ardından Docker image dosyasını oluşturmak için Docker CLI ile aşağıdaki komutu kullandım.
 
 ```bash
