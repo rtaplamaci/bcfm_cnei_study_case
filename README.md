@@ -52,6 +52,12 @@ Ardından ilgili index.html dosyasını oluşturdum ve içeriğin aşağıdaki g
  </body>
  </html>
 ```
+Ardından Docker image dosyasını oluşturmak için Docker CLI ile aşağıdaki komutu kullandım.
+
+```bash
+docker build -t rtaplamaci/ramazan_taplamaci:0.1 .
+
+```
 
 
 
